@@ -22,5 +22,7 @@ Projeto1/
 ├─ README.md
 ├─ Diagramas/
 │ ├─ Diagrama de Classes.png
+
 │ ├─ Diagrama de Sequencia.png
+
 │ └─ Integracao de Modelos.png
