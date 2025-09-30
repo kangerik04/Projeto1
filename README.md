@@ -1,7 +1,9 @@
 # Sistema de Monitoramento Agrícola com Drones
 
 **Professor:** Prof. Dr. Rodrigo Silva
+
 **Turma:** 04G
+
 **Repositório:** 
 
 ## Equipe
