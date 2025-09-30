@@ -19,8 +19,11 @@ Uma cooperativa rural deseja monitorar plantações usando drones que realizam s
 
 ## Estrutura
 Projeto1/
+
 ├─ README.md
+
 ├─ Diagramas/
+
 │ ├─ Diagrama de Classes.png
 
 │ ├─ Diagrama de Sequencia.png
