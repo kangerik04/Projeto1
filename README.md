@@ -24,10 +24,10 @@ Projeto1/
 
 ├─ README.md
 
-├─ Diagramas/
+├─ docs/
 
-│ ├─ Diagrama de Classes.png
+│ ├─ Diagrama de Classes -> PNG
 
-│ ├─ Diagrama de Sequencia.png
+│ ├─ Diagrama de Sequencia -> PNG
 
-│ └─ Integracao de Modelos.png
+│ └─ Integracao de Modelos -> PNG
