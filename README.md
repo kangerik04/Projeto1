@@ -4,8 +4,6 @@
 
 **Turma:** 04G
 
-**Repositório:** 
-
 ## Equipe
 - Erik Dong Kyu Kang RA: 10439715
 - Rodrigo Daiske Uehara RA: 10440295
