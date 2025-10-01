@@ -26,8 +26,8 @@ Projeto1/
 
 ├─ docs/
 
-│ ├─ Diagrama de Classes -> PNG
+│ ├─ Diagrama de Classes.png
 
-│ ├─ Diagrama de Sequencia -> PNG
+│ ├─ Diagrama de Sequencia.png
 
-│ └─ Integracao de Modelos -> PNG
+│ └─ Integracao de Modelos.png
