@@ -1,0 +1,49 @@
+CREATE TABLE Usuario (
+    IDUsuario INT PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    Email VARCHAR(150) UNIQUE NOT NULL,
+    Senha VARCHAR(100) NOT NULL,
+    TipoAcesso VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Drones (
+    IDDrone INT PRIMARY KEY,
+    IDUsuario INT NOT NULL,
+    SensorDisp VARCHAR(100),
+    Status VARCHAR(50),
+    FOREIGN KEY (IDUsuario) REFERENCES Usuario(IDUsuario)
+);
+
+CREATE TABLE AreaAgricola (
+    IDArea INT PRIMARY KEY,
+    Tamanho FLOAT NOT NULL,
+    Localizacao VARCHAR(200) NOT NULL,
+    TipoCultivo VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE MissoesDeVoo (
+    IDMissao INT PRIMARY KEY,
+    IDDrone INT NOT NULL,
+    IDArea INT NOT NULL,
+    Data DATE NOT NULL,
+    Area VARCHAR(100),
+    SensorUti VARCHAR(100),
+    FOREIGN KEY (IDDrone) REFERENCES Drones(IDDrone),
+    FOREIGN KEY (IDArea) REFERENCES AreaAgricola(IDArea)
+);
+
+CREATE TABLE Dados (
+    IDDados INT PRIMARY KEY,
+    IDMissao INT NOT NULL,
+    Imagem BOOLEAN,
+    ValoresSensor FLOAT,
+    FOREIGN KEY (IDMissao) REFERENCES MissoesDeVoo(IDMissao)
+);
+
+CREATE TABLE Relatorio (
+    IDRelatorio INT PRIMARY KEY,
+    IDDados INT NOT NULL,
+    Medicoes FLOAT,
+    VoosRealizado VARCHAR(200),
+    FOREIGN KEY (IDDados) REFERENCES Dados(IDDados)
+);
