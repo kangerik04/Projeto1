@@ -12,10 +12,18 @@
 Uma cooperativa rural deseja monitorar plantações usando drones que realizam sobrevoos periódicos para coletar imagens e dados ambientais (temperatura, umidade e pragas).
 
 ## Entregáveis
+
+SPRINTS-1:
 - ETAPA #1 -> Proposta de Projeto (Este README)
 - ETAPA #2 -> Diagrama de Classes Inicial
 - ETAPA #3 -> Diagrama de Sequência
 - ETAPA #4 -> Integração de Modelos
+
+SPRINTS-2:
+- ETAPA #5 -> Diagrama de Projeto
+- ETAPA #6 -> Integração de Sequência + Colaboração
+- ETAPA #7 -> Diagrama de Estados
+- ETAPA #8 -> Projeto Final
 
 ## Estrutura
 Projeto1/
