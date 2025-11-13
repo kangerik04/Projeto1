@@ -1,4 +1,4 @@
-public class DadosSensor implements IRegistroDados {
+public class DadosSensor implements RegistroDados {
 
     @Override
     public void registrar() {
