@@ -1,4 +1,4 @@
-public class DadosImagem implements IRegistroDados {
+public class DadosImagem implements RegistroDados {
 
     @Override
     public void registrar() {
