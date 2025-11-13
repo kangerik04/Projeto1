@@ -28,11 +28,17 @@ SPRINTS-2:
 ## Estrutura
 Projeto1/
 
-├─ README.md
-
 ├─ docs/
 
 │ ├─ Diagrama de Classes.png
+
+│ ├─ Diagrama de Colaboração.png
+
+│ ├─ Diagrama de Estado - Drone.png
+
+│ ├─ Diagrama de Estado - Missao de Voo.png
+
+│ ├─ Diagrama de Projeto.png
 
 │ ├─ Diagrama de Sequencia.png
 
@@ -41,3 +47,5 @@ Projeto1/
 ├─ src/
 
 │ └─ Código SQL
+
+├─ README.md
