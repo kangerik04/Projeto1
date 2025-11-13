@@ -1,9 +1,9 @@
-public class MissaoDeVoo implements IMissao {
+public class MissaoDeVoo implements Missao {
 
-    private IDrone drone;
-    private IRegistroDados registrador;
+    private Drone drone;
+    private RegistroDados registrador;
 
-    public MissaoDeVoo(IDrone drone, IRegistroDados registrador) {
+    public MissaoDeVoo(Drone drone, RegistroDados registrador) {
         this.drone = drone;
         this.registrador = registrador;
     }
