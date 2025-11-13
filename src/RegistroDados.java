@@ -1,3 +1,3 @@
-public interface IRegistroDados {
+public interface RegistroDados {
     void registrar();
 }
