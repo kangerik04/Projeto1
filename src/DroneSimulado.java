@@ -1,4 +1,4 @@
-public class DroneSimulado implements IDrone {
+public class DroneSimulado implements Drone {
 
     @Override
     public String verificarStatus() {
