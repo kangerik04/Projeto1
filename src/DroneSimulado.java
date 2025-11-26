@@ -2,7 +2,7 @@ public class DroneSimulado implements Drone {
 
     @Override
     public String verificarStatus() {
-        return "OK (Drone Simulado)";
+        return "OK";
     }
 
     @Override
